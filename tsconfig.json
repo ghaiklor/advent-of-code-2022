@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "target": "ES2022"
   }
 }
