@@ -48,7 +48,7 @@ for (let round = 1; round <= 20; round++) {
     while (item !== undefined) {
       // Parse the operation value and kind of operation to calculate new worry level
       const operationValue = parseInt(monkey.operation.value, 10) || item;
-      const newItem = Math.round(
+      const newItem = Math.floor(
         (monkey.operation.kind === "+"
           ? item + operationValue
           : monkey.operation.kind === "*"
